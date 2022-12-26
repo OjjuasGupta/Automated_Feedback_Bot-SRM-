@@ -13,9 +13,9 @@ def pressTab():
 
 def pressDown():
     keyboard.press(Key.down)
-    time.sleep(0.1)
+    time.sleep(0.6)
     keyboard.release(Key.down)
-    time.sleep(0.1)
+    time.sleep(0.6)
 
 def fill_feedback():
     pressDown()
