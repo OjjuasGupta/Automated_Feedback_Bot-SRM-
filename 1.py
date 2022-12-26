@@ -7,9 +7,9 @@ keyboard = Controller()
 
 def pressTab():
     keyboard.press(Key.tab)
-    time.sleep(0.1)
+    time.sleep(0.6)
     keyboard.release(Key.tab)
-    time.sleep(0.1)
+    time.sleep(0.6)
 
 def pressDown():
     keyboard.press(Key.down)
